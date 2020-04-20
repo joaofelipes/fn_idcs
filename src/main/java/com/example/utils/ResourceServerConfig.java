@@ -11,16 +11,16 @@ package com.example.utils;
 public class ResourceServerConfig {
 
     //YOUR IDENTITY DOMAIN AND APPLICATION CREDENTIALS
-    public static final String CLIENT_ID = "e5f22f2e14ae437ab1c4ab7aa7e9d61f";
-    public static final String CLIENT_SECRET = "c82d90ad-74ad-42a7-841e-4808423e2745";
-    public static final String IDCS_URL = "https://idcs-eb38c77cc9b54ef3915bb1c2501a981a.identity.oraclecloud.com";
+    public static final String CLIENT_ID = "<YOUR_CLIENT_ID>";
+    public static final String CLIENT_SECRET = "<YOUR_CLIENT_SECRET>";
+    public static final String IDCS_URL = "<YOUR_IDCS_URL>"; "EX: https://idcs-XXX.identity.oraclecloud.com"
 
     //INFORMATION ABOUT THE TARGET APPLICATION
-    public static final String SCOPE_AUD = "https://idcs-eb38c77cc9b54ef3915bb1c2501a981a.identity.oraclecloud.com:443";
+    public static final String SCOPE_AUD = "<YOUR_SCOPE_AUD>"; "EX: https://idcs-XXX.identity.oraclecloud.com:443"
 
     //TEST CLIENT CREDENTIALS
-    public static final String TEST_CLIENT_ID = "e5f22f2e14ae437ab1c4ab7aa7e9d61f";
-    public static final String TEST_CLIENT_SECRET = "c82d90ad-74ad-42a7-841e-4808423e2745";
+    public static final String TEST_CLIENT_ID = "<YOUR_TEST_CLIENT_ID>";
+    public static final String TEST_CLIENT_SECRET = "<YOUR_TEST_CLIENT_SECRET>";
     public static final String TEST_CLIENT_SCOPE = "urn:opc:idm:__myscopes__";
 
     //INFORMATION ABOUT IDENTITY CLOUD SERVICES
