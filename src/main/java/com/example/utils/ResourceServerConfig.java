@@ -16,7 +16,7 @@ public class ResourceServerConfig {
     public static final String IDCS_URL = "<YOUR_IDCS_URL>"; "EX: https://idcs-XXX.identity.oraclecloud.com"
 
     //INFORMATION ABOUT THE TARGET APPLICATION
-    public static final String SCOPE_AUD = "<YOUR_SCOPE_AUD>"; "EX: https://idcs-XXX.identity.oraclecloud.com:443"
+    public static final String SCOPE_AUD = "<YOUR_SCOPE_AUD>"; "EX: https://idcs-XXX.identity.oraclecloud.com"
 
     //TEST CLIENT CREDENTIALS
     public static final String TEST_CLIENT_ID = "<YOUR_TEST_CLIENT_ID>";
